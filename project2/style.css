@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+  
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(249, 221, 248);
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 10;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 40px ;
+    margin-left: 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(3, 72, 145);
+    font-weight:500;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: rgb(244, 190, 215);
+}
+
+.p{
+    margin-left: 8%;
+    margin-top: 10%;
+   
+}
+
+.p h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.p p{
+    font-weight: 200;
+    font-style: italic;
+}
+span{
+    color: rgb(102, 102, 209);
+    font-style: italic;
+    font-weight: 500;
+}
+
+.button ul{
+   display: flex;
+   list-style: none;
+   margin-top: 5%;
+   margin-left: 8%;
+   gap: 5%;
+   cursor: pointer;
+}
+.button ul li{
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 7px;
+    padding: 8px;
+    background-color: rgb(255, 187, 198);
+    text-shadow: 2px 2px 3px rgb(202, 56, 56);
+    color:rgb(12, 12, 234)
+    
+}
+.c .l {
+    background-color: rgb(255, 255, 255);
+    border: 2px  solid rgb(243, 109, 131);
+    text-shadow: none;
+    }
+
+.l a{
+    text-decoration: none; 
+}
+
+
+
+ul li:hover{
+    background-color: rgb(246, 112, 134);
+    text-shadow: 2px 2px 3px rgb(230, 225, 225);
+    
+}
+.jpg{
+    position: absolute;
+    top: 17%;
+    right: 10%;
+    object-fit: cover;
+    border: 6px solid white;
+    
+    border-radius: 50%;
+}
+.jpg img{
+    border-radius: 50%;
+}
+
+.jpg:hover{
+    box-shadow: 1px 1px 23px rgb(34, 97, 255);
+}
+
+.footer{
+    position: absolute;
+    top: 85%;
+    left: 7%;
+    padding: 10px;
+    display: flex;
+    gap: 25px;
+}
+i{
+    font-size: 30px;
+    cursor: pointer;
+}
+i:hover{
+    
+    
+    transform: translateY(-50%)  scale(1.7);
+    background-color: #fff;
+    box-shadow: 3px 3px 2px rgb(255, 134, 160);
+}
